@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/nj-mvc",
+  "title": "New Jersey MVC",
+  "description": "New Jersey MVC inspection facilities and 2.3M inspection results by make and model",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/nj-mvc",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-nj-mvc",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/nj-mvc/mcp"
+    }
+  ]
+}
