@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-nj-mvc",
-  "version": "0.1.1",
-  "description": "New Jersey MVC MCP — Motor Vehicle Commission inspection and emission-repair facilities,",
+  "version": "0.2.0",
+  "description": "New Jersey MVC MCP — Motor Vehicle Commission inspection and emission-repair facilities, and the record-level vehicle-inspection results file. Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-nj-mvc": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nj-mvc"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-nj-mvc.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/nj-mvc",
   "pipeworx": {
-    "sourceHash": "v1-fa8c7c8db9744d4e68d2083c559b6411522dbfdca5d884666cffb4a084735407",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "mode": "gateway",
+    "slug": "nj-mvc",
+    "gatewaySlug": "nj-mvc",
+    "sourceHash": "v1-314313ed831e9c2ba4f6c12c286faf02e44ea3687553573f37f0916cab816b3b",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }

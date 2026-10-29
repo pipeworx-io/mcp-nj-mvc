@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/nj-mvc",
   "title": "Nj Mvc",
-  "description": "New Jersey MVC MCP — Motor Vehicle Commission inspection and emission-repair facilities,",
-  "version": "0.1.1",
+  "description": "New Jersey MVC MCP — Motor Vehicle Commission inspection and emission-repair facilities, and the…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/nj-mvc",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-nj-mvc",
