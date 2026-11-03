@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nj-mvc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "New Jersey MVC MCP — Motor Vehicle Commission inspection and emission-repair facilities, and the record-level vehicle-inspection results file. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "nj-mvc",
     "gatewaySlug": "nj-mvc",
-    "sourceHash": "v1-314313ed831e9c2ba4f6c12c286faf02e44ea3687553573f37f0916cab816b3b",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-e2c3f08f7fb4b15a59a3c7ff40f7ee0f362c626e24c689295921ae033e1dc023",
+    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
   }
 }
